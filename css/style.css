@@ -1,14 +1,6 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: "MiSans";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/MiSans-Regular.subset.woff2") format("woff2");
-}
-
-@font-face {
   font-family: "Pacifico-Regular";
   src: url("../fonts/Pacifico-Regular.ttf") format("truetype");
 }
@@ -260,7 +252,7 @@ p {
   transition: 1s;
   color: #efefef;
   user-select: none;
-  font-family: "MiSans", sans-serif;
+  font-family: sans-serif;
 }
 
 a:hover {
